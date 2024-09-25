@@ -1,4 +1,4 @@
-package com.example.app_scaffold
+package com.emblueworld.flutter_app_scaffold
 
 import io.flutter.embedding.android.FlutterActivity
 
