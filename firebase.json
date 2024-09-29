@@ -1,0 +1,58 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "buildConfigurations": {
+          "src/development": {
+            "projectId": "flutter-app-scaffold-dev-f892e",
+            "appId": "1:1069468365576:android:fc6cdd67797e2b066af2bd",
+            "fileOutput": "android/app/src/development/google-services.json"
+          },
+          "src/staging": {
+            "projectId": "flutter-app-scaffold-stg",
+            "appId": "1:113420491922:android:44949491c54db825f95a4b",
+            "fileOutput": "android/app/src/staging/google-services.json"
+          },
+          "src/production": {
+            "projectId": "flutter-app-scaffold",
+            "appId": "1:540974955216:android:81397ca78f19b55d7ebcd5",
+            "fileOutput": "android/app/src/production/google-services.json"
+          }
+        }
+      },
+      "ios": {
+        "targets": {
+          "Runner": {
+            "projectId": "flutter-app-scaffold-dev-f892e",
+            "appId": "1:1069468365576:ios:02627916854db6596af2bd",
+            "uploadDebugSymbols": false,
+            "fileOutput": "ios/Runner/development/GoogleService-Info.plist"
+          }
+        }
+      },
+      "dart": {
+        "lib/system/firebase/options/development/default_options.dart": {
+          "projectId": "flutter-app-scaffold-dev-f892e",
+          "configurations": {
+            "android": "1:1069468365576:android:fc6cdd67797e2b066af2bd",
+            "ios": "1:1069468365576:ios:02627916854db6596af2bd"
+          }
+        },
+        "lib/system/firebase/options/staging/default_options.dart": {
+          "projectId": "flutter-app-scaffold-stg",
+          "configurations": {
+            "android": "1:113420491922:android:44949491c54db825f95a4b",
+            "ios": "1:113420491922:ios:aaa86d9c42756b50f95a4b"
+          }
+        },
+        "lib/system/firebase/options/production/default_options.dart": {
+          "projectId": "flutter-app-scaffold",
+          "configurations": {
+            "android": "1:540974955216:android:81397ca78f19b55d7ebcd5",
+            "ios": "1:540974955216:ios:04af35fa1ffd20747ebcd5"
+          }
+        }
+      }
+    }
+  }
+}

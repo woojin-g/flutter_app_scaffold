@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "113420491922",
+    "project_id": "flutter-app-scaffold-stg",
+    "storage_bucket": "flutter-app-scaffold-stg.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:113420491922:android:44949491c54db825f95a4b",
+        "android_client_info": {
+          "package_name": "com.emblueworld.flutter_app_scaffold.staging"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTNCEk-Fvh-snbeJlW_rPik4PrTBA5F-g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
