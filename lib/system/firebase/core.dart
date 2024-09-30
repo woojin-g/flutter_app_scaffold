@@ -11,6 +11,7 @@ class FirebaseManager {
   FirebaseManager._();
 
   static Future<void> initialize() => Firebase.initializeApp(
+        name: F.appFlavor.name,
         options: switch (F.appFlavor) {
           Flavor.development =>
             development.DefaultFirebaseOptions.currentPlatform,
