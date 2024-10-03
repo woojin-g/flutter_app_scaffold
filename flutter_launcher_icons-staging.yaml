@@ -1,12 +1,12 @@
 flutter_launcher_icons:
-  # image_path: "assets/common/app_icon/icon_staging_1024x1024_base.png"
-  image_path_android: "assets/common/app_icon/icon_staging_1024x1024_base.png"
-  image_path_ios: "assets/common/app_icon/icon_staging_1024x1024_icon.png"
+  # image_path: "assets/staging/app_icon/temp_icon_staging_1024x1024_base.png"
+  image_path_android: "assets/staging/app_icon/temp_icon_staging_1024x1024_base.png"
+  image_path_ios: "assets/staging/app_icon/temp_icon_staging_1024x1024_icon.png"
   android: true # can specify file name here e.g. "ic_launcher"
   ios: true # can specify file name here e.g. "My-Launcher-Icon"
   # adaptive_icon_background: "assets/images/christmas-background.png" # only available for Android 8.0 devices and above
   adaptive_icon_background: "#1E88E5"
-  adaptive_icon_foreground: "assets/common/app_icon/icon_staging_1024x1024_icon.png" # only available for Android 8.0 devices and above
+  adaptive_icon_foreground: "assets/staging/app_icon/temp_icon_staging_1024x1024_icon.png" # only available for Android 8.0 devices and above
   # adaptive_icon_foreground_inset: 16 # only available for Android 8.0 devices and above
   # adaptive_icon_monochrome: "assets/images/icon-monochrome-432x432.png" # only available for Android 13 devices and above
   min_sdk_android: 28 # android min sdk min:16, default 21
