@@ -65,4 +65,5 @@ class DefaultFirebaseOptions {
     storageBucket: 'flutter-app-scaffold.appspot.com',
     iosBundleId: 'com.emblueworld.flutter-app-scaffold',
   );
+
 }
