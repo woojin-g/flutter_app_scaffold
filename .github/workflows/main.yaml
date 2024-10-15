@@ -1,0 +1,29 @@
+name: Build & Deploy
+
+on:
+  # # main 브랜치에서 풀 리퀘스트 발생 시 트리거
+  # pull_request:
+  #   branches:
+  #     - main
+      
+  # # main 브랜치에 푸시 발생 시 트리거
+  # push:
+  #   branches:
+  #     - main
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      # Android 빌드를 위한 자바 설치
+      - name: Set Up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: corretto
+          java-version: 21
