@@ -1,10 +1,10 @@
 import 'package:firebase_core/firebase_core.dart';
-import 'package:flutter_app_scaffold/system/flavor/core.dart';
-import 'package:flutter_app_scaffold/system/firebase/options/development/default_options.dart'
+import 'package:flutter_app_scaffold/core/flavor/core.dart';
+import 'package:flutter_app_scaffold/core/firebase/options/development/default_options.dart'
     as development;
-import 'package:flutter_app_scaffold/system/firebase/options/staging/default_options.dart'
+import 'package:flutter_app_scaffold/core/firebase/options/staging/default_options.dart'
     as staging;
-import 'package:flutter_app_scaffold/system/firebase/options/production/default_options.dart'
+import 'package:flutter_app_scaffold/core/firebase/options/production/default_options.dart'
     as production;
 
 class FirebaseManager {

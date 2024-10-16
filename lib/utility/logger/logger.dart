@@ -1,6 +1,6 @@
 import 'package:flutter/widgets.dart';
-import 'package:flutter_app_scaffold/system/logger/core/core.dart';
-import 'package:flutter_app_scaffold/system/logger/core/custom_trace.dart';
+import 'package:flutter_app_scaffold/utility/logger/core/core.dart';
+import 'package:flutter_app_scaffold/utility/logger/core/custom_trace.dart';
 
 /// ### 설명
 /// - 릴리즈 모드일때 터미널 출력 로직은 실행되지 않는다.

@@ -2,8 +2,8 @@ import 'dart:developer' as developer;
 import 'dart:math';
 
 import 'package:flutter/foundation.dart';
-import 'package:flutter_app_scaffold/system/logger/core/custom_trace.dart';
-import 'package:flutter_app_scaffold/system/logger/core/log_color_tag.dart';
+import 'package:flutter_app_scaffold/utility/logger/core/custom_trace.dart';
+import 'package:flutter_app_scaffold/utility/logger/core/log_color_tag.dart';
 
 /// 로그 수준에 대한 열거형으로, 로그 수준에 맞는 색상, 텍스트 효과 등을 가져올 수 있다.
 enum LogLevel {

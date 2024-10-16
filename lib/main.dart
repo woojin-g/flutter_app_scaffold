@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app_scaffold/system/firebase/core.dart';
+import 'package:flutter_app_scaffold/core/firebase/core.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
 
 Future<void> main() async {
